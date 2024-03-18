@@ -1,0 +1,67 @@
+
+
+.projects {
+  height: 100vh;
+  width: 100%;
+}
+
+.project-description {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-description img {
+  width: 400px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.description {
+  margin-left: 30px;
+}
+
+.project-description h3{
+  font-family: "Eczar", serif;
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.project-description h4{
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
+  margin-bottom: 0px;
+  margin-top: -10px;
+}
+
+.tags{
+  margin-top: 0px;
+  display: block
+}
+
+.tags > p{
+  background-color: black;
+  font-family: "Cormorant Garamond", serif; 
+  font-size: 18px;
+  color:aliceblue;
+  width: 150px;
+  text-align: center;
+  padding: 8px 15px;
+  border-radius: 10px;
+  /* transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in; */
+}
+
+/* .tags > p:hover {
+  background-color: #7f72d9;
+  background-image: url("https://images.unsplash.com/photo-1523380360198-653413ad178b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHNreSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D");
+  box-shadow: 0 0 10px #7f72d9;
+} */
+
+/* #name {
+  font-family: "Eczar", serif;
+  font-size: 50px;
+  margin-bottom: -30px;
+}
+
+#title {
+  font-family: "Cormorant Garamond", serif; */
