@@ -7,9 +7,23 @@ function App() {
       <div>
         <h1 id="name">Eliza Nierwińska</h1>
         <p id="title">Junior Frontend Developer</p>
-        <a>Projects</a>
-        <a >Resume</a>
-        <a>Contact</a>
+        <div className="links">
+          <div className="link">
+            <hr className="hr-right"/>
+              <Link className="a" to="/projects">Projects</Link>
+            <hr className="hr-left"/>
+          </div>
+          <div className="link">
+            <hr className="hr-right"/>
+              <Link className="a" to="/resume">Resume</Link>
+            <hr className="hr-left"/>
+          </div>
+          <div className="link">
+            <hr className="hr-right"/>
+              <Link className="a" to="contact">Contact</Link>
+            <hr className="hr-left"/>
+          </div>
+        </div>
       </div>
     </div>
   );
