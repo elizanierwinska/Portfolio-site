@@ -1,5 +1,6 @@
 import './Projects.css';
 import { Link } from 'react-router-dom';
+import Footer from './Footer';
 
 function Projects() {
   return (<div className="projects">
@@ -41,7 +42,7 @@ function Projects() {
         <img src="../images/to-do-list.png" alt="To-do list"/>
       </Link>
       <div className="description">
-        <h3>Calculator</h3>
+        <h3>To do list</h3>
         <h4>Made with:</h4>
         <div className="tags">
           <p>JavaScript</p>
@@ -76,6 +77,7 @@ function Projects() {
         </div>
       </div>
     </div>
+    <Footer />
   </div>)
 }
 
