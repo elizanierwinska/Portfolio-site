@@ -21,9 +21,11 @@ function Resume() {
           <h1>Skills</h1>
           <hr />
         </div>
-          <p><b className="bold-p">Programming languages:</b> JavaScript, TypeScript, Python, HTML, CSS</p>
-          <p><b className="bold-p">Frameworks/Libraries:</b> React, Three.js, Next.js, Redux, Tailwind, Bulma</p>
-          <p><b className="bold-p">Tools:</b> Git, Command Line, Microsoft Office</p>
+        <div className="skillset">
+          <p className="skill-p"><b className="bold-p">Programming languages:</b> JavaScript, TypeScript, Python, HTML, CSS</p>
+          <p className="skill-p"><b className="bold-p">Frameworks/Libraries:</b> React, Three.js, Next.js, Redux, Tailwind, Bulma</p>
+          <p className="skill-p"><b className="bold-p">Tools:</b> Git, Command Line, Microsoft Office</p>
+        </div>
         <div className="resume-header">
           <h1>Education</h1>
           <hr />

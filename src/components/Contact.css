@@ -16,7 +16,7 @@
   transition: all 0.5s ease-in;
 }
 
-.contact-info img:hover {
+.contact-info img:hover, .contact-info img:active {
   box-shadow: 0 0 8px #7f72d9;
   background-color: #cdc6ff;
 }

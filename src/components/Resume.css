@@ -19,15 +19,17 @@
   font-weight: 30;
 }
 
-.flex{
-  display: flex;
-  margin-bottom: 0;
+.skill-p{
+  margin: 4px 0;
+}
+
+.skillset {
+  margin-top: 20px;
 }
 
 .first{
   margin-top: 15px;
 }
-
 
 .bold-p {
   color: #6b5fb6;

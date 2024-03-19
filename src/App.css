@@ -28,7 +28,7 @@
   transition: all 0.5s ease-out;
 }
 
-.link:hover, .link a:hover{
+.link:hover, .link a:hover, .link:active, .link a:active{
   width: 100px;
   color: #7F72D9;
 }
