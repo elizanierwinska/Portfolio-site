@@ -53,6 +53,19 @@ function Projects() {
         </div>
       </div>
       <div className="project-description">
+        <Link to={"https://youtube-clone-git-main-dromuarga.vercel.app/"}>
+          <img src="../images/youtube-clone.png" alt="Youtube clone made with React"/>
+        </Link>
+        <div className="description">
+          <h3>Youtube clone</h3>
+          <h4>Made with:</h4>
+          <div className="tags">
+            <p>React</p>
+            <p>React Router</p>
+          </div>
+        </div>
+      </div>
+      <div className="project-description">
         <Link to={"https://marble-race-game-en.vercel.app/"}>
           <img src="../images/marble-race.png" alt="Marble race game made with Three.js"/>
         </Link>
