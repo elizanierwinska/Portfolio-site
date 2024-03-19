@@ -51,6 +51,7 @@
   width: 400px;
   border-radius: 10px;
   margin: 10px;
+  transform: all 0.5s ease-in-out;
 }
 .project-description img:hover {
   box-shadow: 0 0 10px gray;
@@ -58,6 +59,7 @@
 
 .description {
   margin-left: 30px;
+  transition: all 0.5s ease-in-out;
 }
 
 .project-description h3{
@@ -65,6 +67,7 @@
   font-size: 30px;
   margin-top: 0;
   margin-bottom: 0;
+  transition: all 0.5s ease-in-out;
 }
 
 .project-description h4{
@@ -72,6 +75,7 @@
   font-size: 20px;
   margin-bottom: 0px;
   margin-top: -10px;
+  transition: all 0.5s ease-in-out;
 }
 
 .tags{
@@ -91,9 +95,32 @@
   border: 1px solid black;
   transition: color 0.5s ease-in;
   margin: 8px 0;
+  transition: all 0.5s ease-in-out;
 }
 
 .tags > p:hover {
   color: #7f72d9;
 }
 
+@media(max-width: 650px) {
+  .project-description img {
+    width: 200px;
+  }
+  .description {
+    margin-left: 15px;
+  }
+
+  .project-description h3 {
+    font-size: 20px;
+  }
+
+  .project-description h4 {
+    font-size: 15px;
+  }
+
+  .tags p {
+    font-size: 12px;
+    padding: 2px 0px;
+    flex: wrap;
+  }
+}

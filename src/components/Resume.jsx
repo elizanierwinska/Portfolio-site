@@ -21,18 +21,9 @@ function Resume() {
           <h1>Skills</h1>
           <hr />
         </div>
-        <div className="flex first">
-          <p className="bold-p">Programming languages:</p>
-          <p>JavaScript, TypeScript, Python, HTML, CSS</p>
-        </div>
-        <div className="flex">
-          <p className="bold-p">Frameworks/Libraries:</p>
-          <p>React, Three.js, Next.js, Redux, Tailwind, Bulma</p>
-        </div>
-        <div className="flex">
-          <p className="bold-p">Tools:</p>
-          <p>Git, Command Line, Microsoft Office</p>
-        </div>
+          <p><b className="bold-p">Programming languages:</b> JavaScript, TypeScript, Python, HTML, CSS</p>
+          <p><b className="bold-p">Frameworks/Libraries:</b> React, Three.js, Next.js, Redux, Tailwind, Bulma</p>
+          <p><b className="bold-p">Tools:</b> Git, Command Line, Microsoft Office</p>
         <div className="resume-header">
           <h1>Education</h1>
           <hr />
@@ -59,7 +50,7 @@ function Resume() {
         </div>
         <div className="education-and-experience">
           <h2><b>Biotikur</b> / Business Analytics and Marketing Intern</h2>
-          <p class="company-description"><i>Biotikur is an applied microbiome research UG based in Berlin, Germany</i></p>
+          <p className="company-description"><i>Biotikur is an applied microbiome research UG based in Berlin, Germany</i></p>
           <p className="date">July 2022 - August 2022, Berlin</p>
           <ul>
             <li>Research and identify influential social media influencers for collaboration</li>

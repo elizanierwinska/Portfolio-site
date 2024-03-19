@@ -4,6 +4,7 @@
   font-family: "Eczar", serif;
   font-size: 50px;
   margin-bottom: -30px;
+  transition: all 0.5s ease-in-out;
 }
 
 #title {
@@ -49,3 +50,8 @@
 
 
 
+@media(max-width: 410px) {
+  #name {
+    font-size: 40px;
+  }
+}

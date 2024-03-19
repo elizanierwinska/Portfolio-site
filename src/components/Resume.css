@@ -28,12 +28,8 @@
   margin-top: 15px;
 }
 
-.flex p {
-  margin-bottom: 5px;
-  margin-top: 0;
-}
 
-.flex .bold-p {
+.bold-p {
   color: #6b5fb6;
   font-weight: 800;
   margin-right: 10px;
