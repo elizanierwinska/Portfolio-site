@@ -5,16 +5,72 @@
 
 .resume{
   margin: 0 20%;
+  padding-bottom: 100px;
 }
 
-/* .flex {
+.resume p {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.resume h2, .resume h3 {
+  font-family: "Eczar", serif;
+  font-weight: 30;
+}
+
+.flex{
   display: flex;
-  align-items: center;
-} */
+  margin-bottom: 0;
+}
 
+.first{
+  margin-top: 15px;
+}
 
-.flex hr {
+.flex p {
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+.flex .bold-p {
+  color: #6b5fb6;
+  font-weight: 800;
+  margin-right: 10px;
+}
+
+.resume-header h1 {
+  margin-bottom: 5px;
+  font-family: "Eczar", serif;
+}
+
+.resume-header hr {
   width: 100%;
   border-left: none;
+  border-color: #7f72d9;
 }
 
+.date {
+  color: gray;
+  margin-top: 0;
+}
+
+.education-and-experience h2 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.education-and-experience h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.education-and-experience .gpa, .company-description {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+
+.education-and-experience ul li {
+  margin-top: 8px;
+}
