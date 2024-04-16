@@ -94,6 +94,20 @@
   margin-right: 8px;
 }
 
+#github {
+  width: 40px;
+  margin-left: 0;
+  margin-top: 10px;
+}
+
+#github:hover {
+  background-color: #c7befe;
+}
+
+.h4-github {
+  padding-top: 20px;
+}
+
 .end {
   padding-bottom: 50px;
 }

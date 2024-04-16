@@ -65,6 +65,10 @@ function Projects() {
               <Css3Original size="40"/>
             </Link>
           </div>
+          <h4 className="h4-github">Github repository:</h4>
+          <Link to="https://github.com/elizanierwinska/Calculator">
+            <img src="../images/github_logo.png" alt="" id="github"/>
+          </Link>
         </div>
       </div>
       <div className="project-description">
