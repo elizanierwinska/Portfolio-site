@@ -1,7 +1,7 @@
 import './Projects.css';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Typed from 'typed.js';
 import { JavascriptOriginal } from 'devicons-react';
 import { Html5Original } from 'devicons-react';
@@ -13,6 +13,8 @@ import { ReactOriginal } from 'devicons-react';
 function Projects() {
   const javaScriptEl = useRef(null);
   const threeJsEl = useRef(null);
+
+  const [show, setShow] = useState(false);
 
   useEffect(() => {
     const typedJavaScriptEl = new Typed(javaScriptEl.current, {
@@ -69,9 +71,14 @@ function Projects() {
           <Link to="https://github.com/elizanierwinska/Calculator" target="_blank" >
             <img src="../images/github_logo.png" alt="" id="github"/>
           </Link>
-          <Link className="info-about-project">
-            <h4>About the project</h4>
-          </Link>
+          <h4 className="info-about-project" onClick={() =>setShow(!show)}>About the project</h4>
+          <div className={`notShown ${show ? 'show' : ''}`}>
+            <h1 className="close-btn" onClick={() => setShow(false)}>&#10005;</h1>
+            <h1>Calculator</h1>
+            <h3>Motivation</h3>
+            <h3>Challanges</h3>
+            <h3>What have I learned</h3>
+          </div>
         </div>
       </div>
       <div className="project-description">

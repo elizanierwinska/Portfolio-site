@@ -112,10 +112,49 @@
   padding-bottom: 50px;
 }
 
-.info-about-project h4{
-  margin-top: 8px;
-  color:#7f72d9
+.info-about-project{
+  padding-top: 10px;
+  color: black;
 }
+
+.info-about-project:hover{
+  color:#7f72d9;
+  cursor: pointer;
+}
+
+.notShown {
+  display: none;
+}
+
+.show {
+  animation: slide-right 3s;
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40%;
+  overflow-y: hidden;
+  height: 100vh;
+  background-color: red;
+}
+
+.close-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
+@keyframes slide-right {
+  from {
+    margin-right: -100%;
+  }
+
+  to {
+    margin-right: 0%;
+  }
+}
+
 
 @media(max-width: 650px) {
   .project-description img {
