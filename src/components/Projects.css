@@ -71,9 +71,10 @@
 
 .project-description h3{
   font-family: "Eczar", serif;
+  line-height: 1.2em;
   font-size: 30px;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
   transition: all 0.5s ease-in-out;
 }
 
@@ -93,6 +94,10 @@
   margin-right: 8px;
 }
 
+.JavascriptOriginal {
+  height: 50;
+}
+
 
 @media(max-width: 650px) {
   .project-description img {
@@ -104,15 +109,11 @@
 
   .project-description h3 {
     font-size: 20px;
+    padding: 0;
   }
 
   .project-description h4 {
     font-size: 15px;
   }
 
-  .tags p {
-    font-size: 12px;
-    padding: 2px 0px;
-    flex: wrap;
-  }
 }

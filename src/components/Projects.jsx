@@ -10,7 +10,6 @@ import { ThreejsOriginal } from 'devicons-react';
 import { BlenderOriginal } from 'devicons-react';
 import { ReactOriginal } from 'devicons-react';
 
-
 function Projects() {
   const javaScriptEl = useRef(null);
   const threeJsEl = useRef(null);
@@ -18,7 +17,7 @@ function Projects() {
   useEffect(() => {
     const typedJavaScriptEl = new Typed(javaScriptEl.current, {
       strings: [
-      'Made with JavaScript:',
+      'JavaScript projects:',
     ],
       typeSpeed: 100,
       showCursor: false,
@@ -26,7 +25,7 @@ function Projects() {
 
     const typedThreeJsEl = new Typed(threeJsEl.current, {
       strings: [
-      'Made with Three.js library:',
+      'Three.js library projects:',
     ],
       typeSpeed: 100,
       showCursor: false,
@@ -118,10 +117,10 @@ function Projects() {
           <h4>Made with:</h4>
           <div className="tags">
             <Link to="https://threejs.org/">
-              <ThreejsOriginal size="45"/>
+              <ThreejsOriginal size="40"/>
             </Link>
             <Link to="https://github.com/pmndrs/react-three-fiber">
-              <ReactOriginal size="45"/>
+              <ReactOriginal size="40"/>
             </Link>
           </div>
         </div>
@@ -135,10 +134,10 @@ function Projects() {
           <h4>Made with:</h4>
           <div className="tags">
             <Link to="https://threejs.org/">
-              <ThreejsOriginal size="45"/>
+              <ThreejsOriginal size="40"/>
             </Link>
             <Link to="https://github.com/pmndrs/react-three-fiber">
-              <ReactOriginal size="45"/>
+              <ReactOriginal size="40"/>
             </Link>
           </div>
         </div>
@@ -152,10 +151,10 @@ function Projects() {
           <h4>Made with:</h4>
           <div className="tags">
             <Link to="https://threejs.org/">
-              <ThreejsOriginal size="45"/>
+              <ThreejsOriginal size="40"/>
             </Link>
             <Link to="https://www.blender.org/">
-              <BlenderOriginal size="45"/>
+              <BlenderOriginal size="40"/>
             </Link>
           </div>
         </div>
