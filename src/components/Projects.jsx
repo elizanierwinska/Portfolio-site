@@ -73,11 +73,14 @@ function Projects() {
           </Link>
           <h4 className="info-about-project" onClick={() =>setShow(!show)}>About the project</h4>
           <div className={`notShown ${show ? 'show' : ''}`}>
-            <h1 className="close-btn" onClick={() => setShow(false)}>&#10005;</h1>
-            <h1>Calculator</h1>
-            <h3>Motivation</h3>
-            <h3>Challanges</h3>
-            <h3>What have I learned</h3>
+            <Calculator setShow={setShow}/>
+            {/* <h1 className="close-btn" onClick={() => setShow(false)}>&#10005;</h1>
+            <div className="">
+              <h1>Calculator</h1>
+              <h3>Motivation</h3>
+              <h3>Challanges</h3>
+              <h3>What have I learned</h3>
+            </div> */}
           </div>
         </div>
       </div>
