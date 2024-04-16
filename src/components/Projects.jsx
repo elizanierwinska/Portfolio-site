@@ -118,10 +118,10 @@ function Projects() {
           <h4>Made with:</h4>
           <div className="tags">
             <Link to="https://threejs.org/">
-              <ThreejsOriginal size="50"/>
+              <ThreejsOriginal size="45"/>
             </Link>
             <Link to="https://github.com/pmndrs/react-three-fiber">
-              <ReactOriginal size="50"/>
+              <ReactOriginal size="45"/>
             </Link>
           </div>
         </div>
@@ -135,10 +135,10 @@ function Projects() {
           <h4>Made with:</h4>
           <div className="tags">
             <Link to="https://threejs.org/">
-              <ThreejsOriginal size="50"/>
+              <ThreejsOriginal size="45"/>
             </Link>
             <Link to="https://github.com/pmndrs/react-three-fiber">
-              <ReactOriginal size="50"/>
+              <ReactOriginal size="45"/>
             </Link>
           </div>
         </div>
@@ -152,10 +152,10 @@ function Projects() {
           <h4>Made with:</h4>
           <div className="tags">
             <Link to="https://threejs.org/">
-              <ThreejsOriginal size="50"/>
+              <ThreejsOriginal size="45"/>
             </Link>
             <Link to="https://www.blender.org/">
-              <BlenderOriginal size="50"/>
+              <BlenderOriginal size="45"/>
             </Link>
           </div>
         </div>

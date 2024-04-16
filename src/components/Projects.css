@@ -89,6 +89,10 @@
   margin-top: 15px;
 }
 
+.tags > a {
+  margin-right: 8px;
+}
+
 
 @media(max-width: 650px) {
   .project-description img {
