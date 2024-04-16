@@ -89,6 +89,10 @@ function Projects() {
               <Css3Original size="40"/>
             </Link>
           </div>
+          <h4 className="h4-github">Github repository:</h4>
+          <Link to="https://github.com/elizanierwinska/To-do-list" target="_blank" >
+            <img src="../images/github_logo.png" alt="" id="github"/>
+          </Link>
         </div>
       </div>
       <div className="project-description end">
@@ -109,6 +113,10 @@ function Projects() {
               <Css3Original size="40"/>
             </Link>
           </div>
+          <h4 className="h4-github">Github repository:</h4>
+          <Link to="https://github.com/elizanierwinska/Weather-app" target="_blank" >
+            <img src="../images/github_logo.png" alt="" id="github"/>
+          </Link>
         </div>
       </div>
       <span ref={threeJsEl}/>
@@ -127,6 +135,10 @@ function Projects() {
               <ReactOriginal size="40"/>
             </Link>
           </div>
+          <h4 className="h4-github">Github repository:</h4>
+          <Link to="https://github.com/elizanierwinska/Portfolio-site-Three.js" target="_blank" >
+            <img src="../images/github_logo.png" alt="" id="github"/>
+          </Link>
         </div>
       </div>
       <div className="project-description">
@@ -144,6 +156,10 @@ function Projects() {
               <ReactOriginal size="40"/>
             </Link>
           </div>
+          <h4 className="h4-github">Github repository:</h4>
+          <Link to="https://github.com/elizanierwinska/Marble-race-game" target="_blank" >
+            <img src="../images/github_logo.png" alt="" id="github"/>
+          </Link>
         </div>
       </div>
       <div className="project-description">
@@ -161,6 +177,10 @@ function Projects() {
               <BlenderOriginal size="40"/>
             </Link>
           </div>
+          <h4 className="h4-github">Github repository:</h4>
+          <Link to="https://github.com/elizanierwinska/Portal-scene" target="_blank" >
+            <img src="../images/github_logo.png" alt="" id="github"/>
+          </Link>
         </div>
       </div>
     </div>
