@@ -48,64 +48,64 @@ function Projects() {
     <div className="project-container">
       <span ref={javaScriptEl}/>
       <div className="project-description">
-        <Link to={"https://calculator-en.vercel.app/"}>
+        <Link to="https://calculator-en.vercel.app/" target="_blank" >
           <img src="../images/calculator.png" alt="Calculator"/>
         </Link>
         <div className="description">
           <h3>Calculator</h3>
           <h4>Made with:</h4>
           <div className="tags">
-            <Link to="https://www.javascript.com/">
+            <Link to="https://www.javascript.com/" target="_blank" >
               <JavascriptOriginal size="40"/>
             </Link>
-            <Link to="https://developer.mozilla.org/en-US/docs/Web/HTML">
+            <Link to="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" >
               <Html5Original size="40"/>
             </Link>
-            <Link to="https://developer.mozilla.org/en-US/docs/Web/CSS">
+            <Link to="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" >
               <Css3Original size="40"/>
             </Link>
           </div>
           <h4 className="h4-github">Github repository:</h4>
-          <Link to="https://github.com/elizanierwinska/Calculator">
+          <Link to="https://github.com/elizanierwinska/Calculator" target="_blank" >
             <img src="../images/github_logo.png" alt="" id="github"/>
           </Link>
         </div>
       </div>
       <div className="project-description">
-        <Link to={"https://to-do-list-en.vercel.app/"}>
+        <Link to="https://to-do-list-en.vercel.app/" target="_blank" >
           <img src="../images/to-do-list.png" alt="To-do list"/>
         </Link>
         <div className="description">
           <h3>To do list</h3>
           <h4>Made with:</h4>
           <div className="tags">
-            <Link to="https://www.javascript.com/">
+            <Link to="https://www.javascript.com/" target="_blank" >
               <JavascriptOriginal size="40"/>
             </Link>
-            <Link to="https://developer.mozilla.org/en-US/docs/Web/HTML">
+            <Link to="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" >
               <Html5Original size="40"/>
             </Link>
-            <Link to="https://developer.mozilla.org/en-US/docs/Web/CSS">
+            <Link to="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" >
               <Css3Original size="40"/>
             </Link>
           </div>
         </div>
       </div>
       <div className="project-description end">
-        <Link to={"https://weather-app-en.vercel.app/"}>
+        <Link to="https://weather-app-en.vercel.app/" target="_blank" >
           <img src="../images/weather-app.png" alt="Weather app"/>
         </Link>
         <div className="description">
           <h3>Weather app</h3>
           <h4>Made with:</h4>
           <div className="tags">
-            <Link to="https://www.javascript.com/">
+            <Link to="https://www.javascript.com/" target="_blank" >
               <JavascriptOriginal size="40"/>
             </Link>
-            <Link to="https://developer.mozilla.org/en-US/docs/Web/HTML">
+            <Link to="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" >
               <Html5Original size="40"/>
             </Link>
-            <Link to="https://developer.mozilla.org/en-US/docs/Web/CSS">
+            <Link to="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" >
               <Css3Original size="40"/>
             </Link>
           </div>
@@ -113,51 +113,51 @@ function Projects() {
       </div>
       <span ref={threeJsEl}/>
       <div className="project-description">
-        <Link to={"https://portfolio-three-js-dromuarga.vercel.app/"}>
+        <Link to="https://portfolio-three-js-dromuarga.vercel.app/" target="_blank" >
           <img src="../images/3d-portfolio.png" alt="Portfolio site made with Three.js"/>
         </Link>
         <div className="description">
           <h3>Portfolio site</h3>
           <h4>Made with:</h4>
           <div className="tags">
-            <Link to="https://threejs.org/">
+            <Link to="https://threejs.org/" target="_blank" >
               <ThreejsOriginal size="40"/>
             </Link>
-            <Link to="https://github.com/pmndrs/react-three-fiber">
+            <Link to="https://github.com/pmndrs/react-three-fiber" target="_blank" >
               <ReactOriginal size="40"/>
             </Link>
           </div>
         </div>
       </div>
       <div className="project-description">
-        <Link to={"https://marble-race-game-en.vercel.app/"}>
+        <Link to="https://marble-race-game-en.vercel.app/" target="_blank" >
           <img src="../images/marble-race.png" alt="Marble race game made with Three.js"/>
         </Link>
         <div className="description">
           <h3>Marble race game</h3>
           <h4>Made with:</h4>
           <div className="tags">
-            <Link to="https://threejs.org/">
+            <Link to="https://threejs.org/" target="_blank" >
               <ThreejsOriginal size="40"/>
             </Link>
-            <Link to="https://github.com/pmndrs/react-three-fiber">
+            <Link to="https://github.com/pmndrs/react-three-fiber" target="_blank" >
               <ReactOriginal size="40"/>
             </Link>
           </div>
         </div>
       </div>
       <div className="project-description">
-        <Link to={"https://portal-dromuarga.vercel.app/"}>
+        <Link to="https://portal-dromuarga.vercel.app/" target="_blank" >
           <img src="../images/portal-scene.png" alt="Portal scene made with Three.js"/>
         </Link>
         <div className="description">
           <h3>Portal scene</h3>
           <h4>Made with:</h4>
           <div className="tags">
-            <Link to="https://threejs.org/">
+            <Link to="https://threejs.org/" target="_blank" >
               <ThreejsOriginal size="40"/>
             </Link>
-            <Link to="https://www.blender.org/">
+            <Link to="https://www.blender.org/" target="_blank" >
               <BlenderOriginal size="40"/>
             </Link>
           </div>

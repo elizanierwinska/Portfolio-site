@@ -60,7 +60,7 @@
   margin: 10px;
   transform: all 0.5s ease-in-out;
 }
-.project-description img:hover, .project-description img:active {
+.project-description img:hover {
   box-shadow: 0 0 10px gray;
 }
 
