@@ -25,7 +25,7 @@ function Projects() {
 
     const typedThreeJsEl = new Typed(threeJsEl.current, {
       strings: [
-      'Three.js library projects:',
+      'Three.js projects:',
     ],
       typeSpeed: 100,
       showCursor: false,
