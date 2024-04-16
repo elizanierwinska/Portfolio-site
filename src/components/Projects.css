@@ -86,28 +86,9 @@
 }
 
 .tags{
-  margin-top: 0px;
-  display: block
+  margin-top: 15px;
 }
 
-.tags > p{
-  background-color: lightgray;
-  font-family: "Cormorant Garamond", serif; 
-  font-size: 18px;
-  color:black;
-  width: 150px;
-  text-align: center;
-  padding: 8px 15px;
-  border-radius: 10px;
-  border: 1px solid black;
-  transition: color 0.5s ease-in;
-  margin: 8px 0;
-  transition: all 0.5s ease-in-out;
-}
-
-.tags > p:hover, .tags > p:active{
-  color: #7f72d9;
-}
 
 @media(max-width: 650px) {
   .project-description img {

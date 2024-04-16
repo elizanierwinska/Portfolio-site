@@ -56,9 +56,15 @@ function Projects() {
           <h3>Calculator</h3>
           <h4>Made with:</h4>
           <div className="tags">
-            <JavascriptOriginal />
-            <Html5Original />
-            <Css3Original />
+            <Link to="https://www.javascript.com/">
+              <JavascriptOriginal size="40"/>
+            </Link>
+            <Link to="https://developer.mozilla.org/en-US/docs/Web/HTML">
+              <Html5Original size="40"/>
+            </Link>
+            <Link to="https://developer.mozilla.org/en-US/docs/Web/CSS">
+              <Css3Original size="40"/>
+            </Link>
           </div>
         </div>
       </div>
@@ -70,9 +76,15 @@ function Projects() {
           <h3>To do list</h3>
           <h4>Made with:</h4>
           <div className="tags">
-            <JavascriptOriginal />
-            <Html5Original />
-            <Css3Original />
+            <Link to="https://www.javascript.com/">
+              <JavascriptOriginal size="40"/>
+            </Link>
+            <Link to="https://developer.mozilla.org/en-US/docs/Web/HTML">
+              <Html5Original size="40"/>
+            </Link>
+            <Link to="https://developer.mozilla.org/en-US/docs/Web/CSS">
+              <Css3Original size="40"/>
+            </Link>
           </div>
         </div>
       </div>
@@ -84,9 +96,15 @@ function Projects() {
           <h3>Weather app</h3>
           <h4>Made with:</h4>
           <div className="tags">
-            <JavascriptOriginal />
-            <Html5Original />
-            <Css3Original />
+            <Link to="https://www.javascript.com/">
+              <JavascriptOriginal size="40"/>
+            </Link>
+            <Link to="https://developer.mozilla.org/en-US/docs/Web/HTML">
+              <Html5Original size="40"/>
+            </Link>
+            <Link to="https://developer.mozilla.org/en-US/docs/Web/CSS">
+              <Css3Original size="40"/>
+            </Link>
           </div>
         </div>
       </div>
@@ -99,8 +117,12 @@ function Projects() {
           <h3>Portfolio site</h3>
           <h4>Made with:</h4>
           <div className="tags">
-            <ThreejsOriginal />
-            <ReactOriginal />
+            <Link to="https://threejs.org/">
+              <ThreejsOriginal size="50"/>
+            </Link>
+            <Link to="https://github.com/pmndrs/react-three-fiber">
+              <ReactOriginal size="50"/>
+            </Link>
           </div>
         </div>
       </div>
@@ -112,8 +134,12 @@ function Projects() {
           <h3>Marble race game</h3>
           <h4>Made with:</h4>
           <div className="tags">
-            <ThreejsOriginal />
-            <ReactOriginal />
+            <Link to="https://threejs.org/">
+              <ThreejsOriginal size="50"/>
+            </Link>
+            <Link to="https://github.com/pmndrs/react-three-fiber">
+              <ReactOriginal size="50"/>
+            </Link>
           </div>
         </div>
       </div>
@@ -125,8 +151,12 @@ function Projects() {
           <h3>Portal scene</h3>
           <h4>Made with:</h4>
           <div className="tags">
-            <ThreejsOriginal />
-            <BlenderOriginal />
+            <Link to="https://threejs.org/">
+              <ThreejsOriginal size="50"/>
+            </Link>
+            <Link to="https://www.blender.org/">
+              <BlenderOriginal size="50"/>
+            </Link>
           </div>
         </div>
       </div>
