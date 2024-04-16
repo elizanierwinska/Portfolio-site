@@ -101,7 +101,7 @@
 }
 
 #github:hover {
-  background-color: lightgrey;
+  background-color: #c7befe;
 }
 
 .h4-github {
@@ -110,6 +110,11 @@
 
 .end {
   padding-bottom: 50px;
+}
+
+.info-about-project h4{
+  margin-top: 8px;
+  color:#7f72d9
 }
 
 @media(max-width: 650px) {

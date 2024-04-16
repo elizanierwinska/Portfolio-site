@@ -69,6 +69,9 @@ function Projects() {
           <Link to="https://github.com/elizanierwinska/Calculator" target="_blank" >
             <img src="../images/github_logo.png" alt="" id="github"/>
           </Link>
+          <Link className="info-about-project">
+            <h4>About the project</h4>
+          </Link>
         </div>
       </div>
       <div className="project-description">
