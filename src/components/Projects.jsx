@@ -3,6 +3,13 @@ import { Link } from 'react-router-dom';
 import Footer from './Footer';
 import { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
+import { JavascriptOriginal } from 'devicons-react';
+import { Html5Original } from 'devicons-react';
+import { Css3Original } from 'devicons-react';
+import { ThreejsOriginal } from 'devicons-react';
+import { BlenderOriginal } from 'devicons-react';
+import { ReactOriginal } from 'devicons-react';
+
 
 function Projects() {
   const javaScriptEl = useRef(null);
@@ -49,9 +56,9 @@ function Projects() {
           <h3>Calculator</h3>
           <h4>Made with:</h4>
           <div className="tags">
-            <p>JavaScript</p>
-            <p>HTML</p>
-            <p>CSS</p>
+            <JavascriptOriginal />
+            <Html5Original />
+            <Css3Original />
           </div>
         </div>
       </div>
@@ -63,9 +70,9 @@ function Projects() {
           <h3>To do list</h3>
           <h4>Made with:</h4>
           <div className="tags">
-            <p>JavaScript</p>
-            <p>HTML</p>
-            <p>CSS</p>
+            <JavascriptOriginal />
+            <Html5Original />
+            <Css3Original />
           </div>
         </div>
       </div>
@@ -77,9 +84,9 @@ function Projects() {
           <h3>Weather app</h3>
           <h4>Made with:</h4>
           <div className="tags">
-            <p>JavaScript</p>
-            <p>HTML</p>
-            <p>CSS</p>
+            <JavascriptOriginal />
+            <Html5Original />
+            <Css3Original />
           </div>
         </div>
       </div>
@@ -92,8 +99,8 @@ function Projects() {
           <h3>Portfolio site</h3>
           <h4>Made with:</h4>
           <div className="tags">
-            <p>Three.js</p>
-            <p>React Three Fiber</p>
+            <ThreejsOriginal />
+            <ReactOriginal />
           </div>
         </div>
       </div>
@@ -105,8 +112,8 @@ function Projects() {
           <h3>Marble race game</h3>
           <h4>Made with:</h4>
           <div className="tags">
-            <p>Three.js</p>
-            <p>React Three Fiber</p>
+            <ThreejsOriginal />
+            <ReactOriginal />
           </div>
         </div>
       </div>
@@ -118,8 +125,8 @@ function Projects() {
           <h3>Portal scene</h3>
           <h4>Made with:</h4>
           <div className="tags">
-            <p>Three.js</p>
-            <p>Blender</p>
+            <ThreejsOriginal />
+            <BlenderOriginal />
           </div>
         </div>
       </div>
