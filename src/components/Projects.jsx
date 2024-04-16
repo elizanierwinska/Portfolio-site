@@ -1,8 +1,37 @@
 import './Projects.css';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
+import { useEffect, useRef } from 'react';
+import Typed from 'typed.js';
 
 function Projects() {
+  const javaScriptEl = useRef(null);
+  const threeJsEl = useRef(null);
+
+  useEffect(() => {
+    const typedJavaScriptEl = new Typed(javaScriptEl.current, {
+      strings: [
+      'Made with JavaScript:',
+    ],
+      typeSpeed: 100,
+      showCursor: false,
+    });
+
+    const typedThreeJsEl = new Typed(threeJsEl.current, {
+      strings: [
+      'Made with Three.js library:',
+    ],
+      typeSpeed: 100,
+      showCursor: false,
+    });
+
+    return () => {
+      // Destroy Typed instance during cleanup to stop animation
+      typedJavaScriptEl.destroy();
+      typedThreeJsEl.destroy();
+    };
+  }, []);
+
   return (<div className="projects">
     <div className="back-button-container">
       <Link id="back-button" to="/">
@@ -11,19 +40,7 @@ function Projects() {
       </Link>
     </div>
     <div className="project-container">
-      <div className="project-description">
-        <Link to={"https://portfolio-three-js-dromuarga.vercel.app/"}>
-          <img src="../images/3d-portfolio.png" alt="Portfolio site made with Three.js"/>
-        </Link>
-        <div className="description">
-          <h3>Portfolio site</h3>
-          <h4>Made with:</h4>
-          <div className="tags">
-            <p>Three.js</p>
-            <p>React Three Fiber</p>
-          </div>
-        </div>
-      </div>
+      <span ref={javaScriptEl}/>
       <div className="project-description">
         <Link to={"https://calculator-en.vercel.app/"}>
           <img src="../images/calculator.png" alt="Calculator"/>
@@ -66,16 +83,17 @@ function Projects() {
           </div>
         </div>
       </div>
+      <span ref={threeJsEl}/>
       <div className="project-description">
-        <Link to={"https://youtube-clone-git-main-dromuarga.vercel.app/"}>
-          <img src="../images/youtube-clone.png" alt="Youtube clone made with React"/>
+        <Link to={"https://portfolio-three-js-dromuarga.vercel.app/"}>
+          <img src="../images/3d-portfolio.png" alt="Portfolio site made with Three.js"/>
         </Link>
         <div className="description">
-          <h3>Youtube clone</h3>
+          <h3>Portfolio site</h3>
           <h4>Made with:</h4>
           <div className="tags">
-            <p>React</p>
-            <p>React Router</p>
+            <p>Three.js</p>
+            <p>React Three Fiber</p>
           </div>
         </div>
       </div>
