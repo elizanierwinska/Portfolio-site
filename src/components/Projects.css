@@ -94,10 +94,9 @@
   margin-right: 8px;
 }
 
-.JavascriptOriginal {
-  height: 50;
+.end {
+  padding-bottom: 50px;
 }
-
 
 @media(max-width: 650px) {
   .project-description img {

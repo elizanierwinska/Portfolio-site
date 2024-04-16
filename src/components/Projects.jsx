@@ -87,7 +87,7 @@ function Projects() {
           </div>
         </div>
       </div>
-      <div className="project-description">
+      <div className="project-description end">
         <Link to={"https://weather-app-en.vercel.app/"}>
           <img src="../images/weather-app.png" alt="Weather app"/>
         </Link>
