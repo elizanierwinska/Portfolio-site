@@ -14,7 +14,7 @@ function Projects() {
   const javaScriptEl = useRef(null);
   const threeJsEl = useRef(null);
 
-  const [show, setShow] = useState(false);
+  // const [show, setShow] = useState(false);
 
   useEffect(() => {
     const typedJavaScriptEl = new Typed(javaScriptEl.current, {
@@ -71,7 +71,7 @@ function Projects() {
           <Link to="https://github.com/elizanierwinska/Calculator" target="_blank" >
             <img src="../images/github_logo.png" alt="" id="github"/>
           </Link>
-          <h4 className="info-about-project" onClick={() =>setShow(!show)}>About the project</h4>
+          {/* <h4 className="info-about-project" onClick={() =>setShow(!show)}>About the project</h4>
           <div className={`notShown ${show ? 'show' : ''}`}>
             <h1 className="close-btn" onClick={() => setShow(false)}>&#10005;</h1>
             <div className="project-information">
@@ -80,7 +80,7 @@ function Projects() {
               <h3>Challanges</h3>
               <h3>What have I learned</h3>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="project-description">
