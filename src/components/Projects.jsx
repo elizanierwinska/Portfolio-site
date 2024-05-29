@@ -4,6 +4,7 @@ import Footer from './Footer';
 import { useEffect, useRef, useState } from 'react';
 import Typed from 'typed.js';
 import { JavascriptOriginal } from 'devicons-react';
+import { TypescriptOriginal } from 'devicons-react';
 import { Html5Original } from 'devicons-react';
 import { Css3Original } from 'devicons-react';
 import { ThreejsOriginal } from 'devicons-react';
@@ -13,6 +14,7 @@ import { ReactOriginal } from 'devicons-react';
 function Projects() {
   const javaScriptEl = useRef(null);
   const threeJsEl = useRef(null);
+  const typeScriptEl = useRef(null);
 
   // const [show, setShow] = useState(false);
 
@@ -20,6 +22,14 @@ function Projects() {
     const typedJavaScriptEl = new Typed(javaScriptEl.current, {
       strings: [
       'JavaScript projects:',
+    ],
+      typeSpeed: 100,
+      showCursor: false,
+    });
+
+    const typedTypescriptJsEl = new Typed(typeScriptEl.current, {
+      strings: [
+      'TypeScript projects:',
     ],
       typeSpeed: 100,
       showCursor: false,
@@ -36,6 +46,7 @@ function Projects() {
     return () => {
       // Destroy Typed instance during cleanup to stop animation
       typedJavaScriptEl.destroy();
+      typedTypescriptJsEl.destroy();
       typedThreeJsEl.destroy();
     };
   }, []);
@@ -127,6 +138,31 @@ function Projects() {
           </div>
           <h4 className="h4-github">Github repository:</h4>
           <Link to="https://github.com/elizanierwinska/Weather-app" target="_blank" >
+            <img src="../images/github_logo.png" alt="" id="github"/>
+          </Link>
+        </div>
+      </div>
+      <span ref={typeScriptEl}/>
+      <div className="project-description end">
+        <Link to="https://wolt-delivery-calculator-dromuargas-projects.vercel.app/" target="_blank" >
+          <img src="../images/Wolt-delivery-calculator.png" alt="Wolt delivery calculator app"/>
+        </Link>
+        <div className="description">
+          <h3>Wolt delivery calculator</h3>
+          <h4>Made with:</h4>
+          <div className="tags">
+            <Link to="https://www.typescriptlang.org/" target="_blank" >
+              <TypescriptOriginal size="40"/>
+            </Link>
+            <Link to="https://react.dev/" target="_blank" >
+              <ReactOriginal size="40"/>
+            </Link>
+            <Link to="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" >
+              <Css3Original size="40"/>
+            </Link>
+          </div>
+          <h4 className="h4-github">Github repository:</h4>
+          <Link to="https://github.com/elizanierwinska/Wolt-delivery-calculator" target="_blank" >
             <img src="../images/github_logo.png" alt="" id="github"/>
           </Link>
         </div>
