@@ -13,16 +13,16 @@ function Contact() {
     <div className="contact-container">
       <p id="title">You can check my channels below:</p>
       <div className="contact-info">
-        <Link to="https://www.linkedin.com/in/eliza-nierwi%C5%84ska-583385278/">
+        <Link to="https://www.linkedin.com/in/eliza-nierwi%C5%84ska-583385278/" target="_blank" >
           <img src="../images/linkedin_logo_icon.png" alt=""/>
         </Link>
-        <Link to="https://github.com/elizanierwinska">
+        <Link to="https://github.com/elizanierwinska" target="_blank" >
           <img src="../images/github_logo.png" alt=""/>
         </Link>
-        <Link to="https://tech-blog-dromuarga.vercel.app/">
+        <Link to="https://tech-blog-dromuarga.vercel.app/" target="_blank" >
           <img src="../images/blog-icon.png" alt=""/>
         </Link>
-        <Link to="mailto:nierwinskaeliza@gmail.com">
+        <Link to="mailto:nierwinskaeliza@gmail.com" target="_blank">
           <img src="../images/email-icon.png" alt=""/>
         </Link>
       </div>
