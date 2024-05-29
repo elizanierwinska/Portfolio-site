@@ -148,7 +148,7 @@ function Projects() {
           <img src="../images/Wolt-delivery-calculator.png" alt="Wolt delivery calculator app"/>
         </Link>
         <div className="description">
-          <h3>Wolt delivery calculator</h3>
+          <h3>Delivery fee calculator</h3>
           <h4>Made with:</h4>
           <div className="tags">
             <Link to="https://www.typescriptlang.org/" target="_blank" >
